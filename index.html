@@ -13,210 +13,215 @@
 <title>NailLab – Arte e Tecnica delle Unghie</title>
 <style>
 body {
-font-family: 'Arial', sans-serif;
-margin: 0;
-padding: 0;
-background: #fff;
-color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
 }
 header {
-background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-padding: 2rem;
-text-align: center;
-color: white;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  padding: 2rem;
+  text-align: center;
+  color: white;
 }
 header img {
-max-height: 100px;
-margin-bottom: 1rem;
+  max-height: 100px;
+  margin-bottom: 1rem;
 }
 header h1 {
-margin: 0;
-font-size: 2.5rem;
-background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
--webkit-background-clip: text;
-color: transparent;
-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  margin: 0;
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 nav {
-background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-padding: 1rem;
-text-align: center;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  padding: 1rem;
+  text-align: center;
 }
 nav a {
-margin: 0 1rem;
-color: white;
-text-decoration: none;
-font-weight: bold;
-cursor: pointer;
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
 }
 nav a.active {
-text-decoration: underline;
+  text-decoration: underline;
 }
 nav a:focus {
-outline: 2px solid white;
+  outline: 2px solid white;
 }
 section {
-padding: 2rem;
-display: none;
+  padding: 2rem;
+  display: none;
 }
 section.active {
-display: block;
+  display: block;
 }
 h2, h3 {
-background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
--webkit-background-clip: text;
-color: transparent;
-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 p, li, a {
-color: #333;
+  color: #333;
 }
 footer {
-background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-padding: 1rem;
-text-align: center;
-font-size: 0.9rem;
-color: white;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
 }
 .tutorial, .recensione, .articolo {
-background: #fff0f5;
-padding: 1rem;
-border-radius: 10px;
-margin-top: 1rem;
+  background: #fff0f5;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
 }
 .gallery {
-display: flex;
-flex-wrap: wrap;
-gap: 1rem;
-margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 .gallery img {
-width: calc(33.333% - 1rem);
-height: auto;
-border-radius: 10px;
-object-fit: cover;
+  width: calc(33.333% - 1rem);
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
 }
 @media (max-width: 768px) {
-.gallery img {
-width: calc(50% - 1rem);
-}
+  .gallery img {
+    width: calc(50% - 1rem);
+  }
 }
 @media (max-width: 480px) {
-.gallery img {
-width: 100%;
-}
+  .gallery img {
+    width: 100%;
+  }
 }
 </style>
 </head>
 <body>
+<audio autoplay loop>
+  <source src="Manicure Melodie.mp3" type="audio/mpeg">
+  Il tuo browser non supporta l'elemento audio.
+</audio>
+
 <header>
-<img src="logo.PNG" alt="Logo NailLab">
-<h1>NailLab</h1>
-<p>Arte e Tecnica delle Unghie</p>
+  <img src="logo.png" alt="Logo NailLab">
+  <h1>NailLab</h1>
+  <p>Arte e Tecnica delle Unghie</p>
 </header>
 
 <nav>
-<a href="#home" role="button" tabindex="0">Home</a>
-<a href="#tecnica" role="button" tabindex="0">Tecnica</a>
-<a href="#nailart" role="button" tabindex="0">Nail Art</a>
-<a href="#recensioni" role="button" tabindex="0">Recensioni</a>
-<a href="#lookbook" role="button" tabindex="0">Lookbook</a>
-<a href="#contatti" role="button" tabindex="0">Contatti</a>
+  <a href="#home" role="button" tabindex="0">Home</a>
+  <a href="#tecnica" role="button" tabindex="0">Tecnica</a>
+  <a href="#nailart" role="button" tabindex="0">Nail Art</a>
+  <a href="#recensioni" role="button" tabindex="0">Recensioni</a>
+  <a href="#lookbook" role="button" tabindex="0">Lookbook</a>
+  <a href="#contatti" role="button" tabindex="0">Contatti</a>
 </nav>
 
-<section id="home">
-<h2><span aria-hidden="true">🌈</span> Benvenuti su NailLab</h2>
-<p>Scopri il mondo della cura delle unghie con guide tecniche, tendenze creative, recensioni e ispirazioni! Naviga tra le sezioni per esplorare ogni angolo del nostro salone digitale.</p>
+<section id="home" class="active">
+  <h2><span aria-hidden="true">🌈</span> Benvenuti su NailLab</h2>
+  <p>Scopri il mondo della cura delle unghie con guide tecniche, tendenze creative, recensioni e ispirazioni! Naviga tra le sezioni per esplorare ogni angolo del nostro salone digitale.</p>
 </section>
 
 <section id="tecnica">
-<h2><span aria-hidden="true">🧰</span> Tecnica & Formazione</h2>
-<p>Guide approfondite su ricostruzione, preparazione dell'unghia, gel, acrilico e molto altro.</p>
-<div class="articolo">
-<h3>Articolo: Differenza tra Gel Monofasico e Trifasico</h3>
-<p>Nel mondo della ricostruzione unghie, è fondamentale conoscere la differenza tra gel monofasico e trifasico:</p>
-<ul>
-<li><strong>Monofasico:</strong> un unico prodotto che svolge tre funzioni: base, costruttore e sigillante. È pratico e ideale per iniziare.</li>
-<li><strong>Trifasico:</strong> tre prodotti distinti che garantiscono risultati più resistenti e personalizzabili: gel base, gel costruttore e gel sigillante.</li>
-</ul>
-<p>Il gel trifasico richiede più tempo e precisione, ma offre maggiore durata. Il monofasico è più veloce, perfetto per lavori express o principianti.</p>
-</div>
+  <h2><span aria-hidden="true">🧰</span> Tecnica & Formazione</h2>
+  <p>Guide approfondite su ricostruzione, preparazione dell'unghia, gel, acrilico e molto altro.</p>
+  <div class="articolo">
+    <h3>Articolo: Differenza tra Gel Monofasico e Trifasico</h3>
+    <p>Nel mondo della ricostruzione unghie, è fondamentale conoscere la differenza tra gel monofasico e trifasico:</p>
+    <ul>
+      <li><strong>Monofasico:</strong> un unico prodotto che svolge tre funzioni: base, costruttore e sigillante. È pratico e ideale per iniziare.</li>
+      <li><strong>Trifasico:</strong> tre prodotti distinti che garantiscono risultati più resistenti e personalizzabili: gel base, gel costruttore e gel sigillante.</li>
+    </ul>
+    <p>Il gel trifasico richiede più tempo e precisione, ma offre maggiore durata. Il monofasico è più veloce, perfetto per lavori express o principianti.</p>
+  </div>
 </section>
 
 <section id="nailart">
-<h2><span aria-hidden="true">🎨</span> Nail Art Trends</h2>
-<p>Tutorial creativi, idee stagionali e ispirazioni per ogni occasione.</p>
-<div class="tutorial">
-<h3>Tutorial: Nail Art Floreale di Primavera</h3>
-<p><strong>Occorrente:</strong> smalto bianco latte, smalti color pastello, dotter, pennello fine, top coat.</p>
-<ol>
-<li>Applica una base rinforzante e due passate di smalto bianco latte.</li>
-<li>Con il dotter crea 5 puntini rosa in cerchio per formare un fiore.</li>
-<li>Usa il pennello fine per aggiungere foglioline verdi ai lati dei fiori.</li>
-<li>Ripeti su tutte le unghie alternando i colori pastello.</li>
-<li>Sigilla con top coat lucido.</li>
-</ol>
-<p>Un look delicato, perfetto per la primavera o cerimonie!</p>
-</div>
+  <h2><span aria-hidden="true">🎨</span> Nail Art Trends</h2>
+  <p>Tutorial creativi, idee stagionali e ispirazioni per ogni occasione.</p>
+  <div class="tutorial">
+    <h3>Tutorial: Nail Art Floreale di Primavera</h3>
+    <p><strong>Occorrente:</strong> smalto bianco latte, smalti color pastello, dotter, pennello fine, top coat.</p>
+    <ol>
+      <li>Applica una base rinforzante e due passate di smalto bianco latte.</li>
+      <li>Con il dotter crea 5 puntini rosa in cerchio per formare un fiore.</li>
+      <li>Usa il pennello fine per aggiungere foglioline verdi ai lati dei fiori.</li>
+      <li>Ripeti su tutte le unghie alternando i colori pastello.</li>
+      <li>Sigilla con top coat lucido.</li>
+    </ol>
+    <p>Un look delicato, perfetto per la primavera o cerimonie!</p>
+  </div>
 </section>
 
 <section id="recensioni">
-<h2><span aria-hidden="true">🧴</span> Recensioni Prodotti</h2>
-<p>Test e opinioni su gel, lampade, frese e strumenti professionali.</p>
-<div class="recensione">
-<h3>Recensione: Gel Builder "Crystal Soft" di NailPro</h3>
-<p><strong>Valutazione:</strong> ⭐⭐⭐⭐☆</p>
-<p>Il gel Crystal Soft ha una consistenza medio-densa, facile da modellare. Ottimo per bombature precise e allungamenti su cartina. Non cola e si autolivella bene. Tempi di polimerizzazione: 60 sec LED, 120 sec UV. Perfetto per professioniste intermedie e avanzate.</p>
-<p><strong>Pro:</strong> trasparenza perfetta, ottima tenuta, odore leggerissimo.<br>
-<strong>Contro:</strong> prezzo leggermente alto.</p>
-</div>
+  <h2><span aria-hidden="true">🧴</span> Recensioni Prodotti</h2>
+  <p>Test e opinioni su gel, lampade, frese e strumenti professionali.</p>
+  <div class="recensione">
+    <h3>Recensione: Gel Builder "Crystal Soft" di NailPro</h3>
+    <p><strong>Valutazione:</strong> ⭐⭐⭐⭐☆</p>
+    <p>Il gel Crystal Soft ha una consistenza medio-densa, facile da modellare. Ottimo per bombature precise e allungamenti su cartina. Non cola e si autolivella bene. Tempi di polimerizzazione: 60 sec LED, 120 sec UV. Perfetto per professioniste intermedie e avanzate.</p>
+    <p><strong>Pro:</strong> trasparenza perfetta, ottima tenuta, odore leggerissimo.<br>
+    <strong>Contro:</strong> prezzo leggermente alto.</p>
+  </div>
 </section>
 
 <section id="lookbook">
-<h2><span aria-hidden="true">📷</span> Lookbook</h2>
-<p>Gallerie tematiche per lasciarsi ispirare da ogni stile e stagione.</p>
-<div class="gallery">
-<img src="look1.jpg" alt="Look 1" loading="lazy">
-<img src="look2.jpg" alt="Look 2" loading="lazy">
-<img src="look3.jpg" alt="Look 3" loading="lazy">
-<img src="look4.jpg" alt="Look 4" loading="lazy">
-<img src="look5.jpg" alt="Look 5" loading="lazy">
-<img src="look6.jpg" alt="Look 6" loading="lazy">
-</div>
+  <h2><span aria-hidden="true">📷</span> Lookbook</h2>
+  <p>Gallerie tematiche per lasciarsi ispirare da ogni stile e stagione.</p>
+  <div class="gallery">
+    <img src="look1.jpg" alt="Look 1" loading="lazy">
+    <img src="look2.jpg" alt="Look 2" loading="lazy">
+    <img src="look3.jpg" alt="Look 3" loading="lazy">
+    <img src="look4.jpg" alt="Look 4" loading="lazy">
+    <img src="look5.jpg" alt="Look 5" loading="lazy">
+    <img src="look6.jpg" alt="Look 6" loading="lazy">
+  </div>
 </section>
 
 <section id="contatti">
-<h2><span aria-hidden="true">📩</span> Contatti</h2>
-<p>Vuoi collaborare o fare una domanda? Scrivici a <a href="mailto:bartolo.mancuso01@you.unipa.it">bartolo.mancuso01@you.unipa.it</a></p>
+  <h2><span aria-hidden="true">📩</span> Contatti</h2>
+  <p>Vuoi collaborare o fare una domanda? Scrivici a <a href="mailto:bartolo.mancuso01@you.unipa.it">bartolo.mancuso01@you.unipa.it</a></p>
 </section>
 
 <footer>
-<p>&copy; 2025 NailLab - Tutti i diritti riservati</p>
+  <p>&copy; 2025 NailLab - Tutti i diritti riservati</p>
 </footer>
 
 <script>
 function showSectionById(id) {
-document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
-document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
-const activeSection = document.getElementById(id);
-if (activeSection) activeSection.classList.add('active');
-const activeLink = document.querySelector(`nav a[href='#${id}']`);
-if (activeLink) activeLink.classList.add('active');
+  document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+  const activeSection = document.getElementById(id);
+  if (activeSection) activeSection.classList.add('active');
+  const activeLink = document.querySelector(`nav a[href='#${id}']`);
+  if (activeLink) activeLink.classList.add('active');
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-const id = location.hash.substring(1) || 'home';
-showSectionById(id);
+  const id = location.hash.substring(1) || 'home';
+  showSectionById(id);
 
-document.querySelectorAll('nav a').forEach(link => {
-link.addEventListener('click', e => {
-e.preventDefault();
-const sectionId = link.getAttribute('href').substring(1);
-history.replaceState(null, '', `#${sectionId}`);
-showSectionById(sectionId);
-window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-});
+  document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const sectionId = link.getAttribute('href').substring(1);
+      history.replaceState(null, '', `#${sectionId}`);
+      showSectionById(sectionId);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
 });
 </script>
 </body>
